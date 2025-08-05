@@ -1,0 +1,25 @@
+[package]
+name = "samserve"
+version = "0.1.0"
+edition = "2024"
+
+[profile.release]
+opt-level = 3
+lto = true
+panic = "abort"
+
+
+[dependencies]
+clap = { version = "4.5.42", features = ["derive"] }
+hyper = { version = "0.14", features = ["full"] }
+log = "0.4.27"
+simple_logger = "5.0.0"
+tokio = { version = "1.47.1", features = ["full"] }
+mime_guess = "2"
+tokio-util = "0.7"
+percent-encoding = "2"
+html-escape = "0.2.13"
+base64 = "0.22.1"
+multer = "3"
+sanitize-filename = "0.6.0"
+futures-util = "0.3.31"
