@@ -57,8 +57,6 @@ cargo build --release
 cp target/release/samserve /usr/local/bin/
 ```
 
-Pre-built binaries coming soon.
-
 ---
 
 ## Usage
