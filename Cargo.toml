@@ -2,6 +2,16 @@
 name = "samserve"
 version = "0.1.0"
 edition = "2024"
+authors = ["3amim <3amim.3amim@gmail.com>"]
+description = "A minimal file server with upload support, Basic Auth, and range support. A better drop-in replacement for python3 -m http.server."
+license = "MIT"
+repository = "https://github.com/yourusername/samserve"
+homepage = "https://github.com/yourusername/samserve"
+readme = "README.md"
+keywords = ["http", "server", "upload", "basic-auth", "static"]
+categories = ["command-line-utilities", "web-programming::http-server"]
+exclude = ["/.github", "/target", "*.log", "*.tmp"]
+
 
 [profile.release]
 opt-level = 3
